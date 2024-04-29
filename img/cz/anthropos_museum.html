@@ -122,7 +122,7 @@
 var location_object = {}
 
 
-$.getJSON('/img/cz/anthropos_museum.json', function(data){ //function where location file is loaded
+$.getJSON('../cz/anthropos_museum.json', function(data){ //function where location file is loaded
     location_object = data
     
     // setting all the details in the html
@@ -136,7 +136,7 @@ $.getJSON('/img/cz/anthropos_museum.json', function(data){ //function where loca
         $("#location_description").append(`<p>${el}</p>`)
     })
 
-    $(".location_healine").css("background-image",`linear-gradient(to right, rgba(0, 0, 0, 0.872), rgba(153, 153, 153, 0.081)),url("/img/cz/${location_object.gallery[0]}")`) //setting background
+    $(".location_healine").css("background-image",`linear-gradient(to right, rgba(0, 0, 0, 0.872), rgba(153, 153, 153, 0.081)),url("../cz/${location_object.gallery[0]}")`) //setting background
     $(".address span").text(location_object.details[0]) //setting address
     $(".weather span").text(location_object.details[1]) //setting weather
     $(".hours span").text(location_object.details[2]) //setting settingtime work hours
@@ -152,7 +152,7 @@ $.getJSON('/img/cz/anthropos_museum.json', function(data){ //function where loca
 
     location_object.gallery.forEach(function(location_img){
         $(".location_gallery").append(
-            `<span class="location_gallery_picture"><img src="/img/cz/${location_img}" alt="${location_img}" onclick="zoomImage(this)"></span>`
+            `<span class="location_gallery_picture"><img src="../cz/${location_img}" alt="${location_img}" onclick="zoomImage(this)"></span>`
             )
     });
 
