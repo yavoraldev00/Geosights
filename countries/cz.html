@@ -472,61 +472,61 @@ document.querySelectorAll(".clickable_pin").forEach(function(pin){
 })
 
 $.when( //loads all locations
-    $.getJSON("/img/cz/anthropos_museum.json", function(data){//adds these locations to pin_data object
+    $.getJSON("../img/cz/anthropos_museum.json", function(data){//adds these locations to pin_data object
         locations_to_add.push(data);// used for functionality of pin map AND to populate location cards
         pin_data["anthropos_museum"] = data;
     }),
     
-    $.getJSON("/img/cz/dinosauria_museum.json", function(data){
+    $.getJSON("../img/cz/dinosauria_museum.json", function(data){
         locations_to_add.push(data);
         pin_data["dinosauria_museum"] = data
     }),
 
-    $.getJSON("/img/cz/kostel_krtin.json", function(data){
+    $.getJSON("../img/cz/kostel_krtin.json", function(data){
         locations_to_add.push(data);
         pin_data["kostel_krtin"] = data;
     }),
 
-    $.getJSON("/img/cz/lennon_wall.json", function(data){
+    $.getJSON("../img/cz/lennon_wall.json", function(data){
         locations_to_add.push(data);
         pin_data["lennon_wall"] = data;
     }),
 
-    $.getJSON("/img/cz/ostrich_farm.json", function(data){
+    $.getJSON("../img/cz/ostrich_farm.json", function(data){
         locations_to_add.push(data);
         pin_data["ostrich_farm"] = data;
     }),
 
-    $.getJSON("/img/cz/papilonia.json", function(data){
+    $.getJSON("../img/cz/papilonia.json", function(data){
         locations_to_add.push(data);
         pin_data["papilonia"] = data;
     }),
     
-    $.getJSON("/img/cz/sikluv_mlyn.json", function(data){
+    $.getJSON("../img/cz/sikluv_mlyn.json", function(data){
         locations_to_add.push(data);
         pin_data["sikluv_mlyn"] = data;
     }),
 
-    $.getJSON("/img/cz/sloupsko_caves.json", function(data){
+    $.getJSON("../img/cz/sloupsko_caves.json", function(data){
         locations_to_add.push(data);
         pin_data["sloupsko_caves"] = data;
     }),
 
     //only populate the location cards
-    $.getJSON("/img/cz/bludiste_zamku.json", function(data){locations_to_add.push(data)}),
-    $.getJSON("/img/cz/botanicka_zahrada.json", function(data){locations_to_add.push(data)}),
-    $.getJSON("/img/cz/olsanske_hrbitovy.json", function(data){locations_to_add.push(data)}),
-    $.getJSON("/img/cz/cherninsky_palac.json", function(data){locations_to_add.push(data)}),
-    $.getJSON("/img/cz/svet_meduz.json", function(data){locations_to_add.push(data)}),
-    $.getJSON("/img/cz/vald_zahrada.json", function(data){locations_to_add.push(data)}),
-    $.getJSON("/img/cz/vrtbovska_zahrada.json", function(data){locations_to_add.push(data)}),
-    $.getJSON("/img/cz/zahrady_pod_hradem.json", function(data){locations_to_add.push(data)})    
+    $.getJSON("../img/cz/bludiste_zamku.json", function(data){locations_to_add.push(data)}),
+    $.getJSON("../img/cz/botanicka_zahrada.json", function(data){locations_to_add.push(data)}),
+    $.getJSON("../img/cz/olsanske_hrbitovy.json", function(data){locations_to_add.push(data)}),
+    $.getJSON("../img/cz/cherninsky_palac.json", function(data){locations_to_add.push(data)}),
+    $.getJSON("../img/cz/svet_meduz.json", function(data){locations_to_add.push(data)}),
+    $.getJSON("../img/cz/vald_zahrada.json", function(data){locations_to_add.push(data)}),
+    $.getJSON("../img/cz/vrtbovska_zahrada.json", function(data){locations_to_add.push(data)}),
+    $.getJSON("../img/cz/zahrady_pod_hradem.json", function(data){locations_to_add.push(data)})    
     ).then(function(){
 
         locations_to_add.forEach(function(el_location){ //adds each location
             $("#locations_with_filter .location_container").append(`
             <div class="location ${el_location.tags}" id="${el_location.page_name.slice(0,-5)}" onclick="redirect_to_location(this)">
-                <img src="/img/cz/${el_location.gallery[0]}" alt="${el_location.gallery[0]}" class="location_img">
+                <img src="../img/cz/${el_location.gallery[0]}" alt="${el_location.gallery[0]}" class="location_img">
                 <div class="location_summary">
                     <h3 class="location_name"><u>${el_location.location_name}</u> <span class="province">${el_location.location_region}</span></h3>
                     <p class="location_description">${el_location.location_short_descr}</p>
@@ -538,14 +538,14 @@ $.when( //loads all locations
 
 
 $.when(//loads highlights
-    $.getJSON('/img/cz/ostrich_farm.json', function(data){highlights.push(data)}),
-    $.getJSON('/img/cz/kostel_krtin.json', function(data){highlights.push(data)}),
-    $.getJSON('/img/cz/svet_meduz.json', function(data){highlights.push(data)})
+    $.getJSON('../img/cz/ostrich_farm.json', function(data){highlights.push(data)}),
+    $.getJSON('../img/cz/kostel_krtin.json', function(data){highlights.push(data)}),
+    $.getJSON('../img/cz/svet_meduz.json', function(data){highlights.push(data)})
 ).then(function(){
     highlights.forEach(function(el_highlight){//adds highlights
         $(".highlights").append(`
             <div class="location" id="${el_highlight.page_name.slice(0,-5)}" onclick="redirect_to_location(this)">
-                <img src="/img/cz/${el_highlight.gallery[0]}" alt="${el_highlight.gallery[0]}" class="location_img">
+                <img src="../img/cz/${el_highlight.gallery[0]}" alt="${el_highlight.gallery[0]}" class="location_img">
                 <div class="location_summary">
                     <h3 class="location_name"><u>${el_highlight.location_name}</u> <span class="province">${el_highlight.location_region}</span></h3>
                     <p class="location_description">${el_highlight.location_short_descr}</p>
@@ -574,7 +574,7 @@ $.getJSON('/countries/cz.json', function(data){ //function where location file i
         $("#country_description").append(`<p>${el}</p>`)
     })
 
-    $(".country_headline").css("background-image",`linear-gradient(to right, rgba(0, 0, 0, 0.872), rgba(153, 153, 153, 0.081)),url(/img/${cz_country.country_img})`) //sets background image for country
+    $(".country_headline").css("background-image",`linear-gradient(to right, rgba(0, 0, 0, 0.872), rgba(153, 153, 153, 0.081)),url(../img/${cz_country.country_img})`) //sets background image for country
     $("#languge").text(cz_country.languages) //sets spoken languages
     $("#currency").text(cz_country.currency) //sets currency
     $("#climate").text(cz_country.climate) //sets climate
@@ -615,7 +615,7 @@ function filter_function (filter_button){
 var current_pin  = ""
 
 function redirect_to_location(el){ //redirects to location's page
-    location.href = `/img/cz/${el.id}.html`
+    location.href = `../img/cz/${el.id}.html`
 }
 
 //brings up or removes the preview bubble for the pin map
@@ -631,9 +631,9 @@ function change_position(){
         $("#location_preview").css("top", Math.ceil(this.getBBox().y) - 60) //for preview window
 
         $("#preview_name").text(pin_data[this.id].location_name) //sets pin location name
-        $("#preview_name").parent().attr("href",`/img/cz/${pin_data[this.id].page_name}`) //sets correct link
+        $("#preview_name").parent().attr("href",`../img/cz/${pin_data[this.id].page_name}`) //sets correct link
         $("#preview_descriptor").text(pin_data[this.id].location_short_descr.slice(0,30)+"...") //sets pin location description and makes it shorter
-        $("#preview_image").attr("src",`/img/cz/${pin_data[this.id].gallery[0]}`) //sets pin location image
+        $("#preview_image").attr("src",`../img/cz/${pin_data[this.id].gallery[0]}`) //sets pin location image
 
         $("#location_preview").css("display","flex") //shows (if hidden)
     }
