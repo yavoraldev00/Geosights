@@ -1,0 +1,13 @@
+
+{
+    "page_name":"zahrady_pod_hradem.html",
+    "location_name": "Zahrady pod Pražským hradem",
+    "location_region": "Prague",
+    "location_short_descr": "On the southern slope of the Hradčany Hill below Prague Castle are the Palace Gardens, which are the link between Prague Castle and Mala Strana...",
+    "location_long_descr": "On the southern slope of the Hradčany Hill below Prague Castle are the Palace Gardens, which are the link between Prague Castle and Mala Strana. They consist of a total of five gardens and the Ledeburg Gardens Gallery. Currently, there is historic restoration of some of the gardens. <br> The complex of palace gardens under Prague Castle consists of five gardens: Ledeburská, Malá Pálffyovská, Velká Pálffyovská, Kolowratská and Malá Fürstenberská zahrada. The gardens are proud of numerous terraces, staircases , gazebos and original sculptural decoration . Almost 30 garden viewing terraces offer an unforgettable view of the Prague skyline.",
+    "tags":"architecture",
+    "details": [" Valdštejnská 14 118 01 Prague 1","When Sunny","10:00-18:00","-","130Kč","-","-","100Kč"], 
+    "gallery": ["zahrady_pod_hradem_1.webp","zahrady_pod_hradem_2.webp","zahrady_pod_hradem_3.webp","zahrady_pod_hradem_4.webp"],
+    "street_view": "<iframe src='https://www.google.com/maps/embed?pb=!4v1673526468978!6m8!1m7!1sDl2N68bYGom7EIjRpKDsdQ!2m2!1d50.09101211485999!2d14.40481799164689!3f173.88649499638373!4f-17.942414648914166!5f0.7820865974627469' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    "site":"https://www.kudyznudy.cz/aktivity/palacove-zahrady-pod-prazskym-hradem"
+}

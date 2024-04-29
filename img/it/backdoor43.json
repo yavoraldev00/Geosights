@@ -1,0 +1,12 @@
+{
+    "page_name":"backdoor43.html",
+    "location_name": "Backdoor 43",
+    "location_region": "Milan",
+    "location_short_descr": "One of the smallest bars in the world - a true hidden gem!",
+    "location_long_descr": "This unique bar offers cocktails to go with the feeling of a speakeasy, even the bartenders wear masks. If you manage to snag a reservation, a truly one-of-a-time personalized experience awaits you!",
+    "tags":"entertainment",
+    "details": [" Ripa di Porta Ticinese, 43, 20143 Milano MI, Italy","All year round","19:30 - 03:00","No set duration","7 euro per cocktail","Bus or tram to Via Vigevano V.le Gorizia station, then short walk","Accessible","-"], 
+    "gallery": ["backdoor43.png","backdoor43_1.png","backdoor43_2.png"],
+    "street_view": "<iframe src='https://www.google.com/maps/embed?pb=!4v1673865673010!6m8!1m7!1sg7EickcB4kqt3c8orImQMA!2m2!1d45.45138336320706!2d9.173508791053022!3f241.89777932616687!4f-10.08269522906862!5f0.7820865974627469' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    "site":"https://www.facebook.com/BackDoor43Milano/"
+}

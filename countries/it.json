@@ -1,0 +1,16 @@
+{
+    "country" : "Italy",
+    "country_img": "Italy.jpg",
+    "short_description": "The boot-shaped wonder of Europe",
+    "long_description": "This country contains some of the most varied and scenic landscapes in the world, along with impressive feats of architecture, breathtaking art and a fashion scene hard to resist! ",
+    "languages": "Italian",
+    "currency": "Euro",
+    "climate": "continential",
+    "laws_and_culture": ["In Italy, most shops and businesses close down from noon to 4 or 5 PM. People return home to have lunch and take naps, before going back to their businesses for a few hours and closing by 7 PM.", "Commessi (store clerks) are notoriously rude: do not expect them to smile if you want to try on more than three pairs of shoes"],
+    "safety": ["Be aware of muggers in crowded places", "Generally very accepting in bigger cities, may get some negative attention in smaller ones.", "Generally safe for women, even for solo-travel"],
+
+    "locations": {
+        "long_list_of_locations":{},
+        "to_update":{}
+    }
+}

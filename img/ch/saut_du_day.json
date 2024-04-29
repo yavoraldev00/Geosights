@@ -1,0 +1,12 @@
+{
+    "page_name":"saut_du_day.html",
+    "location_name": "Saut du Day - Waterfall on the French border",
+    "location_region": "Ballaigues",
+    "location_short_de'": "Saut du Day or Cascade du Day is a nice waterfall near Vallorbe and Ballaigues in the west of Switzerland.",
+    "location_long_de'": "A nice walk to climb Mont Pèlerin, culminating at an altitude of 1,080 metres. This ridge to the north of the town of Vevey is home to a panoramic tower, from which the view of Lake Geneva is splendid. It should be noted, however, that this tower is subject to a charge.",
+    "tags":"nature",
+    "details": ["Chem. du Pèlerin 3-1, 1801 Chardonne","Sunny","During Daytime","2h","Free","FUN","Not accessible","-"], 
+    "gallery": ["mont_pelerin_1.png","mont_pelerin_2.png","mont_pelerin_3.png"],
+    "street_view": "<iframe src='https://www.google.com/maps/embed?pb=!4v1673955320307!6m8!1m7!1sCAoSLEFGMVFpcFBxakxzMjQ5VWE5ODl6T0IyMWF6cklPWkJaaU9rLUZXQTNSRDNs!2m2!1d46.4971268!2d6.8191016!3f138.1100039675489!4f-2.2184137005785516!5f0.7820865974627469' width='600' height='450' style='border:0;' allowfull'een='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    "site":"https://www.hika.app/fr/randonnee/switzerland/vaud/mont-pelerin"
+}

@@ -1,0 +1,12 @@
+{
+    "page_name":"saut_du_day.html",
+    "location_name": "Mont Pèlerin - Views from 700 meters above Lake Genevar",
+    "location_region": "Riviera-Pays-d’Enhaut",
+    "location_short_descr": "Mont Pèlerin is a summit of the Swiss plateau located in the municipality of Chardonne in Switzerland.",
+    "location_long_descr": "Viewpoint 700 m above Lake Geneva accessible by funicular from Vevey through the vineyards of Chardonne, then on foot. Elevator to the top of the relay tower.",
+    "tags":"nature",
+    "details": ["1337 Vallorbe","Sunny","24/7","1.5h","Free","Le Day S4, S5","Not accessible","-"], 
+    "gallery": ["saut_du_day_1.png","saut_du_day_2.png","saut_du_day_3.png"],
+    "street_view": "<iframe src='https://www.google.com/maps/embed?pb=!4v1673951910202!6m8!1m7!1sCAoSLEFGMVFpcE5CVEZXdkpUc3RBVGw0c1VETmFLX2dMMVU1cE5OMjBxajk2UFMw!2m2!1d46.7199968!2d6.407897699999999!3f240!4f10!5f0.7820865974627469' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    "site":"https://goo.gl/maps/akJdpHELpeS84VjV8"
+}

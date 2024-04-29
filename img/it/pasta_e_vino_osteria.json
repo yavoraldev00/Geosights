@@ -1,0 +1,12 @@
+{
+    "page_name":"pasta_e_vino_osteria.html",
+    "location_name": "Pasta e Vino Osteria",
+    "location_region": "Rome",
+    "location_short_descr": "Home-made fresh pasta to die for!",
+    "location_long_descr": "This restaurant offers traditional italian dishes and fresh pasta prepared right in front of your eyes. Stay for a meal or watch the process of pasta-making, you-re sure to experience authentic italian cuisine",
+    "tags":"entertainment",
+    "details": [" Via della Pelliccia, 12, 00153 Roma RM, Italy","All year round","12:00 - 00:00","No set duration","Average 12 euro for a pasta dish","Short walk from Basiliek Van Santa Maria in Trastevere","Accessible","-"], 
+    "gallery": ["pastaevino.jpg","pastaevino1.png","pastaevino2.png"],
+    "street_view": "<iframe src='https://www.google.com/maps/embed?pb=!4v1673865598662!6m8!1m7!1sPROw5YAXTVLNoyyCeUZGnA!2m2!1d41.89038966890312!2d12.46988073199362!3f318.95508!4f0!5f0.7820865974627469' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    "site":"https://pastaevinoroma.it/"
+}

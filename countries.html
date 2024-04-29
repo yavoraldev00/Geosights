@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Countries</title>
+</head>
+
+<body>
+    <!-- <div id="coordinates_displayed">here is text</div> -->
+    <header>
+      <a href="index.html">
+         <img src="css/logo.png"  height="50px" alt="site logo" id="site-logo">
+      </a>
+      <nav>
+          <ul id="site-nav">
+              <li><a href="countries.html">Countries</a></li>
+              <li><a href="our_picks.html">Our Picks</a></li>
+              <li><a href="about_us.html">About Us</a></li>
+          </ul>
+      </nav>
+   </header>
+    
+    <main id="countries_main">
+
+        <h2>Countries</h2>
+        <p id="welcome_message_countries">Explore the countries of Europe</p>
+
+        <div class="location_container">
+<!--       
+            <div id="countries-location" class="location">
+               <img src="sheep.jpg" alt="sheep">
+               <div class="location_summary">
+                  <h3>Italy</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+               </div>
+            </div>
+      
+            <div id="countries-location" class="location">
+               <img src="sheep.jpg" alt="sheep">
+               <div class="location_summary">
+                  <h3>Italy</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+               </div>
+            </div>
+
+            <div id="countries-location" class="location">
+                <img src="sheep.jpg" alt="sheep">
+                <div class="location_summary">
+                    <h3>Italy</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div id="countries-location" class="location">
+                <img src="sheep.jpg" alt="sheep">
+                <div class="location_summary">
+                    <h3>Italy</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+       
+             <div id="countries-location" class="location">
+                <img src="sheep.jpg" alt="sheep">
+                <div class="location_summary">
+                   <h3>Italy</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+             </div>
+       
+             <div id="countries-location" class="location">
+                <img src="sheep.jpg" alt="sheep">
+                <div class="location_summary">
+                   <h3>Italy</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+             </div>
+ 
+             <div id="countries-location" class="location">
+                 <img src="sheep.jpg" alt="sheep">
+                 <div class="location_summary">
+                     <h3>Italy</h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                 </div>
+             </div> -->
+         
+
+    </main>
+
+    <footer>
+   
+      <div class="foot-container">
+         <div>
+            <h5>Contact</h5>
+            <div>phone: +3165678363</div>
+            <div>
+               <p>Email us:</p>
+               <a href="mailto:email@example.com">geosight@gmail.com</a>
+            </div>
+         </div>
+         <div>
+            <ul>
+               <h5>Quick links</h5>
+               <li onclick="location.href='index.html'">Home</li>
+               <li onclick="location.href='countries.html'">Countries</li>
+               <li onclick="location.href='our_picks.html'">Our Picks</li>
+               <li onclick="location.href='about_us.html'">About us</li>
+            </ul>
+         </div>
+         <div>
+            <h5>About</h5>
+            <p>Geosight is a website that showcases the budget-friendly hidden gems of countries all over Europe. Discover per country, see our top picks, or explore our interactive map of Europe - you choose the path towards your next adventure!</p>
+         </div>
+      </div>
+   
+      <div class="all-right">
+         <div><p>Not all rights reserved.</p></div>
+         <div><p>With &hearts; Geosight</p></div>
+      </div>
+      
+            
+        
+    </footer>
+<script>
+
+var countries_object = { 
+   "is": { //Iceland
+      "name": "Iceland",
+      "image": "Iceland"
+   },
+   "pt": { //Portugal
+      "name": "Portugal",
+      "image": "Portugal"
+   },
+   "es": { //Spain
+      "name": "Spain",
+      "image": "Spain"
+   },
+   "be": { //Belgium
+      "name": "Belgium",
+      "image": "Belgium"
+   },
+   "it": { //Italy
+      "name": "Italy",
+      "image": "Italy"
+   },
+  
+   "by": { //Belarus
+      "name": "Belarus",
+      "image": "Belarus"
+   },
+   "pl": { //Poland
+      "name": "Poland",
+      "image": "Poland"
+   },
+   "gr": { //Greece
+      "name": "Greece",
+      "image": "Greece"
+   },
+
+   // "kz": { //Kazakhstan
+   //    "name": "",
+   //    "image": "Kazakhstan"
+   // },
+
+   "fi": { //Finland
+      "name": "Finland",
+      "image": "Finland"
+   },
+   "de": { //Germany
+      "name": "Germany",
+      "image": "Germany"
+   },
+   "se": { //Sweden
+      "name": "Sweden",
+      "image": "Sweden"
+   },
+   "no": { //Norway
+      "name": "Norway",
+      "image": "Norway"
+   },
+   "md": { //Moldova
+      "name": "Moldova",
+      "image": "Moldova"
+   },
+   "ua": { //Ukraine "crimea_disputed-0"
+      "name": "Ukraine",
+      "image": "Ukraine"
+   },
+   // "az": { //Azerbaijan
+   //    "name": "NONE",
+   //    "image": "Azerbaijan"
+   // },
+   "ge": { //Georgia
+      "name": "Georgia",
+      "image": "Georgia"
+   },
+   "hr": {//Croatia
+      "name": "Croatia",
+      "image": "Croatia"
+   },
+   
+   "am": {//Armenia
+      "name": "Armenia",
+      "image": "Armenia"
+   },
+   "ie": {//Ireland
+      "name": "Ireland",
+      "image": "Ireland"
+   },
+   "ch": {//Switzerland
+      "name": "Switzerland",
+      "image": "Switzerland"
+   },
+   "at": {//Austria
+      "name": "Austria",
+      "image": "Austria"
+   },
+   "cz": {//Czech Republic
+      "name": "Czech Republic",
+      "image": "CzechRepublic"
+   },
+   "sk": {//Slovakia
+      "name": "Slovakia",
+      "image": "Slovakia"
+   },
+   "hu": {//Hungary
+      "name": "Hungary",
+      "image": "Hungary"
+   },
+   "lt": {//Lithuania
+      "name": "Lithuania",
+      "image": "Lithuania"
+   },
+   "lv": {//Latvia
+      "name": "Latvia",
+      "image": "Latvia"
+   },
+   "ro": {//Romania
+      "name": "Romania",
+      "image": "Romania"
+   },
+   "bg": {//Bulgaria
+      "name": "Bulgaria",
+      "image": "Bulgaria"
+   },
+   "ee": {//Estonia
+      "name": "Estonia",
+      "image": "Estonia"
+   },
+   "ad": {//Andorra
+      "name": "Andorra",
+      "image": "Andorra"
+   },
+   // "sm": {//San Marino
+   //    "name": "San Marino",
+   //    "image": "San Marino"
+   // },
+   "lu": {//Luxemburg
+      "name": "Luxembourg",
+      "image": "Luxembourg"
+   },
+   "fr": {//France
+      "name": "France",
+      "image": "France"
+   },
+   "li": {//"Liechtenstein"
+      "name": "Liechtenstein",
+      "image": "Liechtenstein"
+   },
+   "nl": {//"Netherlands"
+      "name": "Netherlands",
+      "image": "Netherlands"
+   },
+   "ba": {//Bosnia and Herzegovina
+      "name": "Bosnia and Herzegovina",
+      "image": "Bosnia and Herzegovina"
+   },
+   "si": {//Slovenia
+      "name": "Slovenia",
+      "image": "Slovenia"
+   },
+   "rs": {//Serbia
+      "name": "Serbia",
+      "image": "Serbia"
+   },
+   "xk": {//Kosovo
+      "name": "Kosovo",
+      "image": "Kosovo"
+   },
+   "mk": {//Macedonia
+      "name": "Macedonia",
+      "image": "Macedonia"
+   },
+   "al": {//Albania
+      "name": "Albania",
+      "image": "Albania"
+   },
+   "me": {//Montenegro
+      "name": "Montenegro",
+      "image": "Montenegro"
+   },
+   "mc": {//Monaco
+      "name": "Monaco",
+      "image": "Monaco"
+   },
+   
+   "gb": {//UK "gb-nir" "gb-gbn" "im" "gg" "je"
+      "name": "United Kigndom",
+      "image": "UK"
+   },
+   "mt": {//Malta
+      "name": "Malta",
+      "image": "Malta"
+   },
+   "cy": {//Cyprus
+      "name": "Cyprus",
+      "image": "Cyprus"
+   },
+   "dk": {//Denmark "fo" 
+      "name": "Denmark",
+      "image": "Denmark"
+}
+}
+
+$.getJSON('country_template_example.json', function(jd) {
+                  debugger;
+               });
+
+
+function redirect_to_country_page(){
+   if(event.target.tagName == "IMG" || event.target.tagName == "DIV"){
+      location.href = (`countries/${event.target.parentElement.id}.html`)
+   } else{
+      location.href = (`countries/${event.target.parentElement.parentElement.id}.html`)
+   }
+}
+
+for(country in countries_object){
+    $(".location_container").append(`
+<div id="${country}" onclick="redirect_to_country_page()" class="location">
+               <img src="img/${countries_object[country].image}_thumbnail.jpg" alt="${countries_object[country].image} img">
+               <div class="location_summary">
+                   <h3>${countries_object[country].name}</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+               </div>
+           </div>
+`)
+}
+
+</script>
+
+</body>
+
+</html>

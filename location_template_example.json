@@ -1,0 +1,11 @@
+{
+    "location_name": "Great temple",
+    "location_region": "Greater Swedish plains",
+    "location_short_descr": "This is the short description for the bubble",
+    "location_long_descr": "This is the long description for the location page. You can have a lot more text here and include styling like <i> or <b>, <u> and <br> tags and the such.",
+    "tags":"culture",
+    "details": ["Virginia beach","when sunny","24/7","1-5h","Free","Bus 307","Not accessible","-"], 
+    // Details about the location, ordered as such ( Where its located, weather, opening hours, how long it lasts, costs, how to get there, handicap accessible, discounts )
+    "gallery": ["aus/temple1.png","aus/temple4.png","aus/temple3.png"],
+    "street_view": "<iframe src='https://www.google.com/maps/embed?pb=!4v1673524277330!6m8!1m7!1sCAoSLEFGMVFpcFBRbmxvMzRYaUN0ZENJbkY3WjdETXdUN2Y2QzdqN0dSa01GSmJH!2m2!1d50.1225281!2d14.4195032!3f201.46703494518596!4f-14.056656444320396!5f0.7820865974627469' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>"
+}

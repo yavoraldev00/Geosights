@@ -1,0 +1,12 @@
+{
+    "page_name":"galleriasciarra.html",
+    "location_name": "Galleria Sciarra",
+    "location_region": "Rome",
+    "location_short_descr": "Art-filled courtyard in the heart of Rome",
+    "location_long_descr": "This gorgeous courtyard painted with frescoes is located just minutes away from the famous Trevi fountain and offers a gorgeous insight into the Art Nouveau movement.",
+    "tags":"culture",
+    "details": [" Via Marco Minghetti, 10, 00187 Roma RM, Italy","All year round","24/7","No set duration","Free","Short walk from Trevi fountain","Accessible","-"], 
+    "gallery": ["galleriasciarra.png","galleriasciarra1.png","galleriasciarra2.png"],
+    "street_view": "<iframe src='https://www.google.com/maps/embed?pb=!4v1673866074052!6m8!1m7!1sCAoSLEFGMVFpcE5MZ0dJT1FDNDg3TTlIZEN0bTNsVUlMdUJqdV9YSFljLTdkV2FT!2m2!1d41.89995177564742!2d12.48205661773682!3f20.25810642353776!4f89!5f0.7820865974627469' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    "site":"https://www.google.com/maps/place/Galleria+Sciarra/@41.8999403,12.4798666,17z/data=!3m1!4b1!4m5!3m4!1s0x132f6052e55e78ad:0xe3bfa980abca9df7!8m2!3d41.8999946!4d12.4820324"
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Geosights</title>
+</head>
+
+<body>
+    <header>
+        <a href="/index.html">
+           <img src="/css/logo.png"  height="50px" alt="site logo" id="site-logo">
+        </a>
+        <nav>
+            <ul id="site-nav">
+                <li><a href="/countries.html">Countries</a></li>
+                <li><a href="/our_picks.html">Our Picks</a></li>
+                <li><a href="/about_us.html">About Us</a></li>
+            </ul>
+        </nav>
+     </header>
+    
+    <div class="location_healine">
+        <h2 id="location_name">TORRE INCINA</h2>
+        <div id="location_description"></div>
+    </div>
+    
+<main>
+
+    <h3 class="location_detail_message">Know Before You Go</h3>
+
+    <div class="location_details">
+        <section class="address">
+            <img src="/css/address.png" alt="address icon"><span>Virginia beach</span>
+        </section>
+        <section class="weather">
+            <img src="/css/weather.png" alt="weather icon"><span>When sunny</span>
+        </section>
+        <section class="hours">
+            <img src="/css/hours.png" alt="hours icon"><span>24/7</span>
+        </section>
+        <section class="time">
+            <img src="/css/time.png" alt="time icon"><span>Takes 1-5h</span>
+        </section>
+        <section class="cost">
+            <img src="/css/cost.png" alt="cost icon"><span>Free</span>
+        </section>
+        <section class="transportation">
+            <img src="/css/transportation.png" alt="transportation icon"><span>Bus 307</span>
+        </section>
+        <section class="accessibility">
+            <img src="/css/accessibility.png" alt="accessibility icon"><span>Not accessible</span>
+        </section>
+        <section class="discount">
+            <img src="/css/discount.png" alt="discount icon"><span>-</span>
+        </section>
+    </div>
+    
+    <h3 class="location_detail_message">A Picture Is Worth A Thousand Words...</h3>
+
+    <div class="location_gallery">
+        <!-- <span class="location_gallery_picture"><img src="css/cat.png" alt="gallery 1" onclick="zoomImage(this)"></span> -->
+    </div>
+
+    <div id="zoom_container" onclick="closeGallery()">
+        <div id="zoom_content">
+            <img src="/css/cat.png" id="zoom_img" alt="zoom image" height="100%">
+            <div id="close_button" onclick="closeGallery()">X</div>
+        </div>
+    </div>
+
+    <h3 class="location_detail_message" id="streetview_message">...So is street view</h3>
+    
+    <div class="map_container_street_view">
+        <!-- <iframe src='https://www.google.com/maps/embed?pb=!4v1673524277330!6m8!1m7!1sCAoSLEFGMVFpcFBRbmxvMzRYaUN0ZENJbkY3WjdETXdUN2Y2QzdqN0dSa01GSmJH!2m2!1d50.1225281!2d14.4195032!3f201.46703494518596!4f-14.056656444320396!5f0.7820865974627469' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe> -->
+    </div>
+
+</main>
+
+<footer>
+   
+    <div class="foot-container">
+       <div>
+          <h5>Contact</h5>
+          <div>phone: +3165678363</div>
+          <div>
+             <p>Email us:</p>
+             <a href="mailto:email@example.com">geosight@gmail.com</a>
+          </div>
+       </div>
+       <div>
+          <ul>
+             <h5>Quick links</h5>
+             <li onclick="location.href='index.html'">Home</li>
+             <li onclick="location.href='countries.html'">Countries</li>
+             <li onclick="location.href='our_picks.html'">Our Picks</li>
+             <li onclick="location.href='about_us.html'">About us</li>
+          </ul>
+       </div>
+       <div>
+          <h5>About</h5>
+          <p>Geosight is a website that showcases the budget-friendly hidden gems of countries all over Europe. Discover per country, see our top picks, or explore our interactive map of Europe - you choose the path towards your next adventure!</p>
+        </div>
+    </div>
+ 
+    <div class="all-right">
+       <div><p>Not all rights reserved.</p></div>
+       <div><p>With &hearts; Geosight</p></div>
+    </div>
+    
+          
+      
+  </footer>
+
+<script>
+
+//Object where location data is stored
+var location_object = {}
+
+
+$.getJSON('/img/cz/anthropos_museum.json', function(data){ //function where location file is loaded
+    location_object = data
+    
+    // setting all the details in the html
+
+    //setting location name
+    $("#location_name").text(location_object.location_name)
+    
+    //setting location description, new lines on new <p> tag
+    var desc_text = location_object.location_long_descr.split("<br>")
+    desc_text.forEach(function(el){
+        $("#location_description").append(`<p>${el}</p>`)
+    })
+
+    $(".location_healine").css("background-image",`linear-gradient(to right, rgba(0, 0, 0, 0.872), rgba(153, 153, 153, 0.081)),url("/img/cz/${location_object.gallery[0]}")`) //setting background
+    $(".address span").text(location_object.details[0]) //setting address
+    $(".weather span").text(location_object.details[1]) //setting weather
+    $(".hours span").text(location_object.details[2]) //setting settingtime work hours
+    $(".hours time").text(location_object.details[3]) //setting duration
+
+    $(".cost span").text(location_object.details[4]) //setting cost
+    $(".transportation span").text(location_object.details[5]) //setting transportation
+    $(".accessibility span").text(location_object.details[6]) //setting handicap accessibility
+    $(".discount span").text(location_object.details[7]) //setting discount
+
+
+    // Adding images to gallery
+
+    location_object.gallery.forEach(function(location_img){
+        $(".location_gallery").append(
+            `<span class="location_gallery_picture"><img src="/img/cz/${location_img}" alt="${location_img}" onclick="zoomImage(this)"></span>`
+            )
+    });
+
+    if(location_object.street_view){
+        $(".map_container_street_view").append(location_object.street_view) //setting streetview
+    }else{
+        //removes streetview if its empty and adds some margin
+        $("#streetview_message").css("display","none")
+        $(".map_container_street_view").css("display","none")
+        $(".location_gallery").css("margin-bottom","150px")
+    }
+
+
+});    
+
+//variables of gallery container
+var zoom_container_var = document.getElementById("zoom_container")
+var zoom_img_var = document.getElementById("zoom_img")
+
+function closeGallery() { //close gallery function
+    zoom_container_var.style.display = "none"
+}
+
+function zoomImage(el) { //open image in gallery image
+    debugger;
+    zoom_img_var.src = el.src
+    zoom_container_var.style.display = "block"
+}
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+{
+    "page_name":"transport_museum.html",
+    "location_name": "Swiss Museum of Transport - A unique panorama",
+    "location_region": "Schwyz",
+    "location_short_descr": "Interactive transport museum with artifacts & shows, works by artist Hans Erni & a planetarium.",
+    "location_long_descr": "The Swiss Museum of Transport or Verkehrshaus der Schweiz in Lucerne opened in July 1959 and exhibits all forms of transport including trains, automobiles, ships and aircraft as well as communication technology.",
+    "tags":"entertainment",
+    "details": ["Lidostrasse 5, 6006 Luzern","Anytime","10-17h","2h","16","73 Postbus","Accessible","30%"], 
+    "gallery": ["transport_museum_1.png","transport_museum_2.png","transport_museum_3.png","transport_museum_4.png"],
+    "street_view": "<iframe src='https://www.google.com/maps/embed?pb=!4v1673961548927!6m8!1m7!1sCAoSLEFGMVFpcE9qbzl2NklvVVhqakxBanBObGpQZmpFVHdDTXFtb3lKVEJUak51!2m2!1d47.0525516!2d8.3369343!3f48.59183058411881!4f18.9483491103324!5f0.7820865974627469' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    "site":"https://www.verkehrshaus.ch/startseite.html"
+}

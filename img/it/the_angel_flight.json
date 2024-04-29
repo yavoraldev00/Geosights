@@ -1,0 +1,12 @@
+{
+    "page_name":"the_angel_flight.html",
+    "location_name": "The Angel Flight",
+    "location_region": "Basilicata",
+    "location_short_descr": "A zip-line experience you'll never forget!",
+    "location_long_descr": "The angel flight is a zip-line connecting two picturesque italian villages - Castelmezzano and Pietrapertosa. Give yourself an adrenaline rush while enjoying Italy's nature in this experience of a lifetime! ",
+    "tags":"entertainment",
+    "details": [" Via Giuseppe Garibaldi, 4, 85010 Pietrapertosa PZ, Italy","Summertime","09:30 - 18:30","1 hour","45 euro per person","Walk, then shuttle","Not accessible","-"], 
+    "gallery": ["zipline.jpg","zipline1.png","zipline2.png"],
+    "street_view": "<iframe src='https://www.google.com/maps/embed?pb=!4v1673865598662!6m8!1m7!1sPROw5YAXTVLNoyyCeUZGnA!2m2!1d41.89038966890312!2d12.46988073199362!3f318.95508!4f0!5f0.7820865974627469' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    "site":"https://pastaevinoroma.it/"
+}

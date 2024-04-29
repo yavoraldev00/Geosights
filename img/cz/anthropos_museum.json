@@ -1,0 +1,12 @@
+{
+    "page_name":"anthropos_museum.html",
+    "location_name": "Pavilon Anthropos",
+    "location_region": "Brno",
+    "location_short_descr": "The unique museum documents the earliest history of the settlement of Moravia and the entire European continent...",
+    "location_long_descr": "The unique museum documents the earliest history of the settlement of Moravia and the entire European continent. The 3.5 m high life-size model of a mammoth, accompanied by a cub, attracts considerable attention of both children and adults. The extensive museum exhibition is one of the largest and most modern of its kind in Europe.",
+    "tags":"culture",
+    "details": ["Pisarecká 5 620 00 Brno","N/A","09:00 - 17:00","1.5h","120Kč","-","-","70Kč"], 
+    "gallery": ["anthropos_museum_1.webp","anthropos_museum_2.webp","anthropos_museum_3.webp","anthropos_museum_4.webp"],
+    "street_view": "<iframe src='https://www.google.com/maps/embed?pb=!4v1673873244147!6m8!1m7!1sCAoSLEFGMVFpcE13Ym5iemEyMEJPOFVnSGRzbWpzSXRfUVdhWFZKYnZ1eUhZbVhw!2m2!1d49.1920437!2d16.5673806!3f32.31159794308183!4f-4.808231895078251!5f0.7820865974627469' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    "site":"https://www.kudyznudy.cz/aktivity/cesta-do-praveku-v-brne-pavilon-anthropos-a-reko"
+}

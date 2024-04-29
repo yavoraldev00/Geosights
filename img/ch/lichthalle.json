@@ -1,0 +1,12 @@
+{
+    "page_name":"lichthalle.html",
+    "location_name": "Lichthalle MAAG - A 360-degree journey",
+    "location_region": "Zürich",
+    "location_short_descr": "A 360-degree journey through the life and works of the Austrian Art Nouveau pioneer.",
+    "location_long_descr": "A 360-degree journey through the life and works of the Austrian Art Nouveau pioneer. In addition to his portraits of women, female allegories and landscape paintings, Gustav Klimt achieved international fame with, among other things, 'The Kiss'. Experience Klimt's story like never before thanks to the innovative, immersive staging. In conjunction with music, 40 projectors create an intoxicating world of colors and breathe new life into his art.",
+    "tags":"entertainment",
+    "details": ["Zahnradstrasse 22, 8005 Zürich","Anytime","10-18h","2.5h","26€","S9","Accessible","3€"], 
+    "gallery": ["lichthalle_1.png","lichthalle_2.png","lichthalle_3.png"],
+    "street_view": "<iframe src='https://www.google.com/maps/embed?pb=!4v1673964584148!6m8!1m7!1sCAoSLEFGMVFpcE9YSVYzRFRVZURDTGdtdGxsdjc0WTVWUTJMWUMxemM2MEV4NGpo!2m2!1d47.3865568!2d8.515988799999999!3f137.38462754424623!4f8.367617773975738!5f0.7820865974627469' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    "site":"http://lichthallemaag.ch/"
+}

@@ -1,0 +1,58 @@
+at - Austria
+es - Spain
+pt - Portugal 
+gl - Greenland
+dk - Denmark
+cy - Cyprus
+cy nc - Cyprus / North Cyprus
+mt - Malta
+xb gb-nir gb-8 im gg je - United Kingdom
+me - Montenegro
+ru ru-main ru-kgd - Russia
+al - Albania
+mc - Monaco
+mk - Macedonia
+rs - Serbia
+se - Sweden
+xk - Kosovo
+si - Slovenia
+ba - Bosnia Herzegovnia
+nl - Netherlands
+li - Lichteinstein
+fr - France
+lu - Luxemburg
+sm - San Marino
+ad - Andora
+ee - Estonia
+bg - Bulgaria
+ro - Romania
+lv - Latvia
+lt - Lithuania
+hu - Hungary
+sk - Slovakia
+cz - Czech Republic
+at - Austria
+ch - Switzerland
+ie - Ireland
+am - Armenia
+tr - Turkey
+hr - Croatia
+ge - Georgia
+az - Arzabaijan
+ua crimea-disputed-0 - Ukraine
+md transnistria-4 - Moldova
+no - Norway
+se - Sweden
+de - Germany
+fi - Finland
+kz - Kazahstan
+gr - Greece
+pl - Poland
+by - Belarus
+va - Vatican City
+it - Italy
+be - Belgium
+es - Spain
+pt - Portugal
+is - Iceland
+fo - Faroe

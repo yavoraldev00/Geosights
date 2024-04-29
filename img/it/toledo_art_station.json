@@ -1,0 +1,12 @@
+{
+    "page_name":"toledo_art_station.html",
+    "location_name": "Toledo Art Station",
+    "location_region": "Naples",
+    "location_short_descr": "Where do art and everyday life collide? In this metro station!",
+    "location_long_descr": "Dive deep into contemporary art and architecture in this unique metro station, considered the most beautiful in Europe.",
+    "tags":"culture",
+    "details": [" 80133 Napels, Italy ","All year round","06:00 - 00:00","No set duration","Free","Walk/Metro ride to Toledo station","Accessible","-"], 
+    "gallery": ["toledoartstation.png","toledoart1.png","toledoart2.png"],
+    "street_view": "<iframe src='https://www.google.com/maps/embed?pb=!4v1673866159407!6m8!1m7!1sCAoSLEFGMVFpcE5Zdi0tTUlLUmd2QUVkbXZNYTZjTDVFSV9pS0RmY1pVbXI4NWRl!2m2!1d40.84180449999999!2d14.2484941!3f169.8166524152422!4f4.760674348556833!5f0.7820865974627469' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    "site":"https://www.google.com/maps/place/Toledo/@40.8424948,14.2467319,17z/data=!3m1!4b1!4m5!3m4!1s0x133b0850093f2839:0xf474b6b075a94d9a!8m2!3d40.8424948!4d14.2489206"
+}

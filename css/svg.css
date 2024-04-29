@@ -1,0 +1,5 @@
+path:hover {
+    cursor: pointer;
+    fill: rgb(117, 117, 117) !important;
+    transition: fill 0.7s;
+}

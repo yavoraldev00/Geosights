@@ -1,0 +1,54 @@
+ad - Andora
+al - Albania
+am - Armenia
+at - Austria
+az - Arzabaijan
+ba - Bosnia Herzegovnia
+be - Belgium
+bg - Bulgaria
+by - Belarus
+ch - Switzerland
+cy - Cyprus
+cy nc - Cyprus / North Cyprus
+cz - Czech Republic
+de - Germany
+dk - Denmark
+ee - Estonia
+es - Spain
+fi - Finland
+fo - Faroe
+fr - France
+ge - Georgia
+gl - Greenland
+gr - Greece
+hr - Croatia
+hu - Hungary
+ie - Ireland
+is - Iceland
+it - Italy
+kz - Kazahstan
+li - Lichteinstein
+lt - Lithuania
+lu - Luxemburg
+lv - Latvia
+mc - Monaco
+md - Moldova
+me - Montenegro
+mk - Macedonia
+mt - Malta
+nl - Netherlands
+no - Norway
+pl - Poland
+pt - Portugal
+ro - Romania
+rs - Serbia
+ru ru-main ru-kgd - Russia
+se - Sweden
+si - Slovenia
+sk - Slovakia
+sm - San Marino
+tr - Turkey
+ua crimea-disputed-0 - Ukraine
+va - Vatican City
+xb gb-nir gb-8 im gg je - United Kingdom
+xk - Kosovo

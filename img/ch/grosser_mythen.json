@@ -1,0 +1,12 @@
+{
+    "page_name":"grosser_mythen.html",
+    "location_name": "Grosser Mythen - A unique panorama",
+    "location_region": "Schwyz",
+    "location_short_descr": "Mont Pèlerin is a summit of the Swiss plateau located in the municipality of Chardonne in Switzerland.",
+    "location_long_descr": "The two Mythen form the backdrop to the heart of Switzerland - and the 360° panorama of the Grosser Mythen is overwhelming! Around the two Mythen there are beautiful hiking trails and secluded paths through this natural paradise in the Pre-Alps with the largest nature reserve in the canton of Schwyz. The new Rotenfluebahn in Schwyz/Rickenbach leads directly up the Rotenflue to the ascent to the Grosser Mythen in just 10 minutes.",
+    "tags":"nature",
+    "details": ["6430 Schwyz","Sunny","24/7","2.5h","Free","PB Holzegg","Not accessible","-"], 
+    "gallery": ["grosser_mythen_1.png","grosser_mythen_2.png","grosser_mythen_3.png","grosser_mythen_4.png","grosser_mythen_5.png","grosser_mythen_6.png"],
+    "street_view": "<iframe src='https://www.google.com/maps/embed?pb=!4v1673959872849!6m8!1m7!1sCAoSLEFGMVFpcE5jVjJhRHdZcTVKYmZYN1dfa1dBOFVnRm9EUUthM29HWlg2YVZu!2m2!1d47.03006703605811!2d8.688648641109467!3f255.79496080003898!4f-5.115667983652699!5f0.7820865974627469' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    "site":"https://goo.gl/maps/akJdpHELpeS84VjV8"
+}

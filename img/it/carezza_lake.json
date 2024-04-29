@@ -1,0 +1,12 @@
+{
+    "page_name":"carezza_lake.html",
+    "location_name": "Lago di Carezza",
+    "location_region": "South Tyrol",
+    "location_short_descr": "Magical lake at the foot of the Dolomites",
+    "location_long_descr": "Carezza lake is not only a gorgeous feat of nature, it also holds a tale as old as time about a beautiful water nymph and a sorcerer.",
+    "tags":"nature",
+    "details": [" 39056 Welschnofen, Bozen, Italy","Spring-Summer","24/7","No set duration","Free/8 euro(4.50 for bus ticket one way)","Car drive","Not accessible","-"], 
+    "gallery": ["carezzalake.png","carezzalake1.png","carezzalake2.png"],
+    "street_view": "<iframe src='https://www.google.com/maps/embed?pb=!4v1673865766413!6m8!1m7!1sCAoSLEFGMVFpcE1UQnk1SGppVGhOZGZrTGJJbzRCR3Y1dEFhTnBrbjdFc2RGSXNX!2m2!1d46.41000220000001!2d11.5749517!3f156.54879432608269!4f-0.4125516937394025!5f0.7820865974627469' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    "site":"https://www.google.com/maps/place/Karersee/@46.4092446,11.5728569,17z/data=!3m1!4b1!4m5!3m4!1s0x47786fe8e28162b7:0xdb332cfdd84fb462!8m2!3d46.4092273!4d11.5750645"
+}
