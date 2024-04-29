@@ -176,7 +176,7 @@
         grid-template-columns: 300px 300px 300px;
         gap: 2rem 2rem;
         justify-content: space-around;
-        margin: 5% 50% 0% 50%;
+        margin: 5% 0% 5% 0%;
     }
 
     .location {
