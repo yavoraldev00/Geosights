@@ -440,7 +440,7 @@
             <a href="#"><h3 id="preview_name">COUNTRY</h3></a>
             <section id="preview_descriptor">SAMPLE TEXT</section>
         </div>
-        <img id="preview_image" src="/botanic_1.webp" alt="location img" width="100px" height="100px">
+        <img id="preview_image" src="../botanic_1.webp" alt="location img" width="100px" height="100px">
     </div>
 
     </div>
@@ -578,19 +578,19 @@ document.querySelectorAll(".clickable_pin").forEach(function(pin){
 
 $.when( //loads all locations
     //only populate the location cards
-    $.getJSON("/img/it/backdoor43.json", function(data){locations_to_add.push(data)}),
-    $.getJSON("/img/it/carezza_lake.json", function(data){locations_to_add.push(data)}),
-    $.getJSON("/img/it/galleriasciarra.json", function(data){locations_to_add.push(data)}),
-    $.getJSON("/img/it/pasta_e_vino_osteria.json", function(data){locations_to_add.push(data)}),
-    $.getJSON("/img/it/saturina_hot_springs.json", function(data){locations_to_add.push(data)}),
-    $.getJSON("/img/it/the_angel_flight.json", function(data){locations_to_add.push(data)}),
-    $.getJSON("/img/it/toledo_art_station.json", function(data){locations_to_add.push(data)}),
+    $.getJSON("../img/it/backdoor43.json", function(data){locations_to_add.push(data)}),
+    $.getJSON("../img/it/carezza_lake.json", function(data){locations_to_add.push(data)}),
+    $.getJSON("../img/it/galleriasciarra.json", function(data){locations_to_add.push(data)}),
+    $.getJSON("../img/it/pasta_e_vino_osteria.json", function(data){locations_to_add.push(data)}),
+    $.getJSON("../img/it/saturina_hot_springs.json", function(data){locations_to_add.push(data)}),
+    $.getJSON("../img/it/the_angel_flight.json", function(data){locations_to_add.push(data)}),
+    $.getJSON("../img/it/toledo_art_station.json", function(data){locations_to_add.push(data)}),
     ).then(function(){
 
         locations_to_add.forEach(function(el_location){ //adds each location
             $("#locations_with_filter .location_container").append(`
             <div class="location ${el_location.tags}" id="${el_location.page_name.slice(0,-5)}" onclick="redirect_to_location(this)">
-                <img src="/img/it/${el_location.gallery[0]}" alt="${el_location.gallery[0]}" class="location_img">
+                <img src="../img/it/${el_location.gallery[0]}" alt="${el_location.gallery[0]}" class="location_img">
                 <div class="location_summary">
                     <h3 class="location_name"><u>${el_location.location_name}</u> <span class="province">${el_location.location_region}</span></h3>
                     <p class="location_description">${el_location.location_short_descr}</p>
@@ -602,14 +602,14 @@ $.when( //loads all locations
 
 
 $.when(//loads highlights
-    $.getJSON('/img/it/ostrich_farm.json', function(data){highlights.push(data)}),
-    $.getJSON('/img/it/kostel_krtin.json', function(data){highlights.push(data)}),
-    $.getJSON('/img/it/svet_meduz.json', function(data){highlights.push(data)})
+    $.getJSON('../img/it/ostrich_farm.json', function(data){highlights.push(data)}),
+    $.getJSON('../img/it/kostel_krtin.json', function(data){highlights.push(data)}),
+    $.getJSON('../img/it/svet_meduz.json', function(data){highlights.push(data)})
 ).then(function(){
     highlights.forEach(function(el_highlight){//adds highlights
         $(".highlights").append(`
             <div class="location" id="${el_highlight.page_name.slice(0,-5)}" onclick="redirect_to_location(this)">
-                <img src="/img/it/${el_highlight.gallery[0]}" alt="${el_highlight.gallery[0]}" class="location_img">
+                <img src="../img/it/${el_highlight.gallery[0]}" alt="${el_highlight.gallery[0]}" class="location_img">
                 <div class="location_summary">
                     <h3 class="location_name"><u>${el_highlight.location_name}</u> <span class="province">${el_highlight.location_region}</span></h3>
                     <p class="location_description">${el_highlight.location_short_descr}</p>
@@ -620,7 +620,7 @@ $.when(//loads highlights
 
 
 
-$.getJSON('/countries/it.json', function(data){ //function where location file is loaded
+$.getJSON('../countries/it.json', function(data){ //function where location file is loaded
     //sets data to variable
     cz_country = data
     
@@ -677,7 +677,7 @@ function filter_function (filter_button){
 }}
 
 function redirect_to_location(el){ //redirects to location's page
-    location.href = `/img/it/${el.id}.html`
+    location.href = `../img/it/${el.id}.html`
 }
 
 //brings up or removes the preview bubble for the pin map
@@ -697,9 +697,9 @@ function change_position(){
         $("#location_preview").css("top", Math.ceil(this.getBBox().y) - 60) //for preview window
 
         $("#preview_name").text(pin_data[this.id].location_name) //sets pin location name
-        $("#preview_name").parent().attr("href",`/img/it/${pin_data[this.id].page_name}`) //sets correct link
+        $("#preview_name").parent().attr("href",`../img/it/${pin_data[this.id].page_name}`) //sets correct link
         $("#preview_descriptor").text(pin_data[this.id].location_short_descr.slice(0,30)+"...") //sets pin location description and makes it shorter
-        $("#preview_image").attr("src",`/img/it/${pin_data[this.id].gallery[0]}`) //sets pin location image
+        $("#preview_image").attr("src",`../img/it/${pin_data[this.id].gallery[0]}`) //sets pin location image
 
         $("#location_preview").css("display","flex") //shows (if hidden)
     }
